@@ -2,7 +2,7 @@
 
 ## Prerequisites 
 
-This application is requires some background work before running. The project is built in Visual Studio Environment 
+This application requires some background work before running. The project is built in a Visual Studio Environment 
 with C & C++ installed. A MobileSim Robot simulator software needs to be installed as well. 
 MobileRobot can be found here [`MobileSim-0.7.5.exe`](Map/MobileSim-0.7.5.exe). 
 
