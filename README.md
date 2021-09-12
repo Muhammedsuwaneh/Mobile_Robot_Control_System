@@ -58,6 +58,10 @@ When Robot is connected ...
 
 ![Screenshot](Screenshots/position.png) 
 
+## Technologies
+
+C, C++, MobileSim, SWIG 
+
 ## Contributors 
 
 1.Muhammed Suwaneh, Eskişehir Osmangazi University, Eskişehir, Turkey.
