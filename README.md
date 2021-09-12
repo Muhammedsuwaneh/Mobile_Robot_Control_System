@@ -59,10 +59,10 @@ C, C++, MobileSim, SWIG
 
 ## Contributors 
 
-1.Muhammed Suwaneh, Eskişehir Osmangazi University, Eskişehir, Turkey.
-2.Yakupcan Ergen, Eskişehir Osmangazi University, Eskişehir, Turkey.
-3.Kadirhan Kubat, Eskişehir Osmangazi University, Eskişehir, Turkey.
-4.Alperen Bişkin, Eskişehir Osmangazi University, Eskişehir, Turkey.
+1. Muhammed Suwaneh, Eskişehir Osmangazi University, Eskişehir, Turkey.
+2. Yakupcan Ergen, Eskişehir Osmangazi University, Eskişehir, Turkey.
+3. Kadirhan Kubat, Eskişehir Osmangazi University, Eskişehir, Turkey.
+4. Alperen Bişkin, Eskişehir Osmangazi University, Eskişehir, Turkey.
 
 
 ## Project Supervisor 
@@ -75,5 +75,5 @@ The project was part develop as part of the requirement for the Object Oriented 
 It serves as one of the portfolio projects of the above contributors. The project in no way should be used 
 for marketable or commercial purposes. 
 
-## The Project is license under [`MIT`](LICENSE) Copyright 2020-21
+### The Project is license under [`MIT`](LICENSE) Copyright 2020-21
 
