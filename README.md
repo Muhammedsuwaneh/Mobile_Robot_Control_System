@@ -67,13 +67,7 @@ C, C++, MobileSim, SWIG
 
 ## Project Supervisor 
 
-1. Dr. Metin Özcan, Professor & Lecturer @Eskişehir Osmangazi University, Eskişehir, Turkey.
-
-## Disclaimer 
-
-The project was part develop as part of the requirement for the Object Oriented Programming Software Course.
-It serves as one of the portfolio projects of the above contributors. The project in no way should be used 
-for marketable or commercial purposes. 
+1. Dr. Metin Özkan, Professor & Lecturer @Eskişehir Osmangazi University, Eskişehir, Turkey.
 
 ### The Project is license under [`MIT`](LICENSE) Copyright 2020-21
 
