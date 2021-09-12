@@ -37,12 +37,7 @@ When Robot is connected ...
 
 ![Screenshot](Screenshots/connection.png)
 
-### Robot's Motion
-
-![Screenshot](Screenshots/motion.png) 
-
-
-### Robot's Movement 
+### Robot's Motion 
 
 ![Screenshot](Screenshots/move.png) 
 
