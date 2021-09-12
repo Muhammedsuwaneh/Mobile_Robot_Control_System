@@ -4,12 +4,12 @@
 
 This application requires some background work before running. The project is built in a Visual Studio Environment 
 with C & C++ installed. A MobileSim Robot simulator software needs to be installed as well. 
-MobileRobot can be found here [`MobileSim-0.7.5.exe`](Map/MobileSim-0.7.5.exe). 
+MobileSim can be found here [`MobileSim-0.7.5.exe`](Map/MobileSim-0.7.5.exe). 
 
 ## About
 
 The Mobile Robot Control System is C/C++ Console Application that controls the movement of a Robot in a simulation environment. It 
-basicallty serves as the Robot controller. The MobileSim serves as the simulator connected to the Console Application via the Aria 
+basically serves as the Robot controller. The MobileSim(The simulation environment) is connected to the Console Application via the Aria 
 API and Libraries. The Console Application has classes and methods that help to facilitate the simulation process.
 To run the application successfully, the MobileSim software needs to be opened. The simulator map can then be loaded to the MobileSim.
 The simulator map can be found here [`office.map`](Map/office.map). 
@@ -29,7 +29,7 @@ The map is connected to the console application which serves as the controller.
 
 ### Connection
 
-This menu connects the Console Application and the MobileSim using the [`Aria`](API/PioneerRobotAPI.h) 
+This menu connects the Console Application and the MobileSim using the [`PioneerRobotAPI`](API/PioneerRobotAPI.h) 
 
 ![Screenshot](Screenshots/connectionMenu.png)
 
@@ -37,7 +37,11 @@ When Robot is connected ...
 
 ![Screenshot](Screenshots/connection.png)
 
+<<<<<<< HEAD
 ### Robot's Motion 
+=======
+### Robot's Motion
+>>>>>>> 763c41cb6cff7ac0edead954192e0c93d680a28e
 
 ![Screenshot](Screenshots/move.png) 
 
@@ -47,7 +51,7 @@ When Robot is connected ...
 
 ### Robot's Sensors 
 
-![Screenshot](Screenshots/sensor.png) 
+![Screenshot](Screenshots/sensors.png) 
 
 ### Robot's Position
 
