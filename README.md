@@ -37,11 +37,7 @@ When Robot is connected ...
 
 ![Screenshot](Screenshots/connection.png)
 
-<<<<<<< HEAD
 ### Robot's Motion 
-=======
-### Robot's Motion
->>>>>>> 763c41cb6cff7ac0edead954192e0c93d680a28e
 
 ![Screenshot](Screenshots/move.png) 
 
