@@ -39,11 +39,6 @@ When Robot is connected ...
 
 ### Robot's Motion
 
-![Screenshot](Screenshots/motion.png) 
-
-
-### Robot's Movement 
-
 ![Screenshot](Screenshots/move.png) 
 
 ### Robot's Turning - Left/Right/Rotation
