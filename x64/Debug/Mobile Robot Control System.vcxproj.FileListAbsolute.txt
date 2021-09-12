@@ -1,0 +1,3 @@
+C:\Users\PROJECT VENUS\Documents\Personal\Projects\mobile_robot_control_systems\x64\Debug\Mobile Robot Control System.exe
+C:\Users\PROJECT VENUS\Documents\Personal\Projects\mobile_robot_control_systems\x64\Debug\Mobile Robot Control System.pdb
+E:\Personal\Projects\mobile_robot_control_systems\x64\Debug\Mobile Robot Control System.exe

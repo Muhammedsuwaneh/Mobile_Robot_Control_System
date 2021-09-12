@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mobile Robot Control System", "Mobile Robot Control System.vcxproj", "{A101CAA4-299E-4163-99D6-C2AF5054CCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Debug|x64.ActiveCfg = Debug|x64
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Debug|x64.Build.0 = Debug|x64
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Debug|x86.Build.0 = Debug|Win32
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Release|x64.ActiveCfg = Release|x64
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Release|x64.Build.0 = Release|x64
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Release|x86.ActiveCfg = Release|Win32
+		{A101CAA4-299E-4163-99D6-C2AF5054CCC7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B3BAF23-7447-4390-A88E-78281F08BAE2}
+	EndGlobalSection
+EndGlobal

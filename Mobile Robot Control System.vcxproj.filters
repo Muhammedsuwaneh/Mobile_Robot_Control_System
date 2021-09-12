@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="api\PioneerRobotInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console menu\mainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\RobotControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encryption\Encrpytion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="operators\RobotOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="path\Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="position\Pose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="records\Record.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sensors\LaserSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sensors\SonarSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\PioneerRobotAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\PioneerRobotInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\RobotInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionAvoidFront.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionAvoidSide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionBumpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionColorFollow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionConstantVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionDeceleratingLimiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionDesired.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionDriveDistance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionGoto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionGotoStraight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionIRs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionJoydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionKeydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionLimiterBackwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionLimiterForwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionLimiterRot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionLimiterTableSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionMovementParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionMovementParametersDebugging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionRatioInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionRobotJoydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionStallRecover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionStop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionTriangleDriveTo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArActionTurn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArACTS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArAMPTU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArAnalogGyro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArArgumentBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArArgumentParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArASyncTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArBasePacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArBatteryConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArBatteryMTX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArBumpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArCameraCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArCameraCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArConfigArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArConfigGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArDataLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArDeviceConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArDPPTU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArDrawingData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArExitErrorSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArFileDeviceConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArFileParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArForbiddenRangeDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArFunctor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArFunctorASyncTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArGPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArGPSConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArGPSCoords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArGripper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArHasFileName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\Aria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ariaInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ariaOSDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ariaTypedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ariaUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArInterpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArIrrfDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArIRs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArJoyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArKeyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLaserConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLaserFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLaserLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLaserReflectorDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLCDConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLCDMTX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLineFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLMS1XX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLMS2xx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLMS2xxPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLMS2xxPacketReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArLogFileConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMapComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMapInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMapObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMapUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMD5Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArModes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArModuleLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMTXIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArNetServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArNMEAParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArNovatelGPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArP2Arm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArPixelDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArPriorityResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArPTZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArPTZConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRangeBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRangeDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRangeDeviceThreaded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRatioInputJoydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRatioInputKeydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRatioInputRobotJoydrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRecurrentTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotBatteryPacketReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotConfigPacketReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotJoyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotPacketReaderThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotPacketReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotPacketSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRobotTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArRVisionPTZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArS3Series.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSensorReading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSerialConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSignalHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSimpleConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSimulatedLaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSonarAutoDisabler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSonarConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSonarDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSonarMTX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSonyPTZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSoundPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSoundsQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSpeech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArStringInfoGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSyncLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSyncTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSystemStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArSZSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTaskState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTCM2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTCMCompassDirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTCMCompassRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTcpConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArTrimbleGPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArUrg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArUrg_2_0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArVCC4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArVersalogicIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\ArZippable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\wrapper_ExtraClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria\wrapper_Functors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console menu\mainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\RobotControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption\Encrpytion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operators\RobotOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path\Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path\pathNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="position\Pose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="records\Record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensors\LaserSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensors\RangeSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sensors\SonarSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
