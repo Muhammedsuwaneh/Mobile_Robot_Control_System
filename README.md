@@ -58,7 +58,7 @@ When Robot is connected ...
   <img src="https://img.shields.io/badge/-C-green" />
   <img src="https://img.shields.io/badge/-C++-red" />
   <img src="https://img.shields.io/badge/-MobileSim-white" />
-  <img src="https://img.shields.io/badge/-SWIGwhite" />
+  <img src="https://img.shields.io/badge/-SWIG-blue" />
 </div>
 
 ## Contributors 
@@ -71,7 +71,7 @@ When Robot is connected ...
 
 ## Project Supervisor 
 
-1. Dr. Metin Özkan, Professor & Lecturer @Eskişehir Osmangazi University, Eskişehir, Turkey.
+Dr. Metin Özkan, Professor & Lecturer @Eskişehir Osmangazi University, Eskişehir, Turkey.
 
 ### The Project is license under [`MIT`](LICENSE) Copyright 2020-21
 
